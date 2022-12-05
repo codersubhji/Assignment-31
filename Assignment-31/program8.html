@@ -1,0 +1,36 @@
+<!-- 8. Restrict the maximum number of characters allowed in the input field to 10.
+Note: You should not include any Javascript
+
+<form action="/register">
+<input type="text">
+</form> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            text-align: center;
+           
+        }
+        *{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="/registration">
+        <h1>Maximum Number of characters allowed in the input field to 10</h1>
+        <label for="fname">Enter Your first name :</label>
+        <input type="text" maxlength="10" placeholder="Enter your name"> <br> <br>
+
+        <label for="fname">Enter Your second name :</label>
+        <input type="text" maxlength="10" placeholder="Enter your name">
+    </form>
+</body>
+</html>
